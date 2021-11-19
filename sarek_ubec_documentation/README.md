@@ -930,7 +930,7 @@ https://github.com/Ensembl/ensembl-vep<br><br>
 
 ## Workflow
 
-![GitHub Logo](/Sarek_pipeline_tools_workflow.jpg)
+![GitHub Logo](./Sarek_pipeline_tools_workflow.jpg)
 
 ## Test Run
   
