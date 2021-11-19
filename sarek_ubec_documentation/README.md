@@ -1,5 +1,9 @@
 # Sarek Installation and Documentation
-Installation and setup documents for sarek pipeline
+Installation and setup documents for sarek pipeline. Also describes changes made to the standard sarek pipeline:
+* Change ControlFREEC behavior to work on bam files instead of mpileup
+* Add customVCF annotation functionality
+* More robust handling of custom genome names and content (incl singuliarty images)
+* Minor bugfixes/changes
 
 ## Introduction
 Sarek is a pipeline built in Nextflow designed to detect variants on whole genome or targeted sequencing data. Sarek can also handle tumor/normal pairs…
