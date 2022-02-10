@@ -40,10 +40,16 @@ Singularity is most likely already available on the HPC, if not follow [these in
 
 ## Pull or Clone Sarek
 
-Use the following command to clone the Sarek pipeline in a sarek subfolder in the current working directory:
+Use the following command to clone the original Sarek pipeline in a sarek subfolder in the current working directory:
 
 ```
 git clone https://github.com/nf-core/sarek.git
+```
+
+The customized version can be found on the following respository, cloning in the current working directory can be done as follows:
+
+```
+git clone https://github.com/UMCUGenetics/sarek_ubec.git
 ```
 
 ## Get and Configure resources
@@ -284,7 +290,9 @@ To do...
 
 ## Modify code
 
-Some modifications have been made to the sarek code in order to optimize usage or make it usable with the custom genome configs. The following changes are made to the main.nf file in the sarek folder:
+Some modifications have been made to the sarek code in order to optimize usage or make it usable with the custom genome configs. When cloning the modded umcugenetics/sarek_ubec repository applying these changes should not be necessary, only when cloning the original nfcore repository it is still required.
+
+The following changes are made to the main.nf file in the sarek folder:
 
 ### Disable mpileup and use bam files for control-freec
 Line 125 and 135. Change occurences of:
