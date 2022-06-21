@@ -22,7 +22,6 @@ https://nf-co.re/sarek
 8. [Running the pipeline](#running-the-pipeline)
 9. [Available tools](#available-tools)
 10. [Workflow](#workflow)
-11. [Test run](#test-run)
 
 ## Install Nextflow
 
@@ -940,10 +939,3 @@ https://github.com/Ensembl/ensembl-vep<br><br>
 
 ![GitHub Logo](./Sarek_pipeline_tools_workflow.jpg)
 
-## Test Run
-  
-Execute the following in order to setup and do a testrun with the pipeline
-
-```
-cp -av /hpc/cog_bioinf/ubec/useq/processed_data/external/REN5302/input/REN5302_1/09-06576/*.fastq.gz /hpc/cog_bioinf/ubec/users/flip/pipelines/sarek_test/input/single_sample_fastq/
-```
